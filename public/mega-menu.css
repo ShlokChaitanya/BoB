@@ -1,0 +1,880 @@
+/*
+* Direction
+* Default Configuration
+* Font 
+* Header, Body and footer configuration
+* Links
+* Scrollbar 
+* Notification Bubble 
+* Mask 
+* Box Shadow Parameters
+* Button
+* Forms
+* Date Picker
+* Message Display
+* Tabs
+* Virtual Keypad
+* Collapsible section
+* Modal View
+* Download Component
+* Table
+* Step tracker
+* Breadcrumb
+* Print help, Print preview
+* Link delink
+* Password Strength
+* Pagination 
+* Hamburger menu
+* Ticker
+* Widgets
+*/
+/*
+ * This file contains the color palette configuration defined in application
+ * for various colors shades. Any color added in style sheet should be from
+ * this defined set of color palettes only
+ */
+/* 
+ * Get the corresponding hex code for the color
+ * Usage: color("name_of_color", "type_of_color")
+ * Example: $primary-color: color("red", "lighten-2");
+ */
+/* Direction - Used for RTL/LTR support. Not yet implemented.
+ * Possible values are: 
+ * ltr (for Left to Right languages)
+ * rtl (for right to left languages)
+ */
+/* Default Configurations 
+ * Every bank will be associated with a default theme which will be a combination 
+ * of a primary color and a secondary color.
+ */
+/* new theme orange introduced*/
+/* Font - The default font family (Roboto) used in applications are mentioned here.
+ * Recommendation is not to change the font family as application font family has been decided as per 
+ * Google material design recommendation.
+ * Changing font family will have below mentioned impacts:
+ * 	1. font sizes, font weight needs to be redefined across application style sheets as per the new font family.
+ *  2. Any alignment issues due to the font change needs to be taken care.
+ */
+/* icomoon and fontawesome font families are used mostly for icon sets used in application screens */
+/* Application heading related configurations */
+/* Header, Body and footer configurations used in login screens and post login application screens */
+/* Pre-login screens related configuration */
+/* Post login application  screen configuration */
+/* Hyperlink configuration */
+/* Scrollbar configuration 
+ * Some browsers doesn't support changing the native default scrollbars. The below style changes 
+ * might not reflect in such browsers.
+ */
+/* Left hand side and Right hand side vertical and horizontal bar configurations */
+/* Notification Bubble 
+ * Used in header for showing notification count for Alerts, Mails and Mails count in hamburger menu
+ */
+/* Mask - Used mainly as a background for overlay screens to mask user from clicking 
+ * on the background screen components.
+ */
+/* Box Shadow Configuration 
+ * Used to give shadow effects to ovarlays, containers, components, pulldowns. Multiple shadow attributes
+ * are defined which can be used across application screens.
+ */
+/* Buttons
+ * Application buttons fall into below mentioned categories:
+ * 1. Primary Button 
+ * 2. Secondary Button
+ * 3. Flat Button  - should look like a normal text on screen, but actually its a button in backend
+ * 4. Disabled Button - used for displaying disabled(non clickable/read only) buttons
+ * Configuration allows you to change to sharp edges of buttons, color, shadow, case of text etc.
+ * Note: If case of button text is changed, ensure to give proper font-size also to avoid any distortion.
+ */
+/* Form Configurations
+ * Contains form elements:
+ * 1. Input fields.
+ * 2. Labels
+ * 3. Check boxes
+ * 4. Radio buttons
+ * 5. Combo boxes
+ * 6. Text area
+ * 7. Mandatory star *
+ * 8. Place holder
+ */
+/* 
+ * Date Picker configuration
+ * Configuration allows you to customize the date picker styles
+ */
+/* 
+ * Message Display 
+ * Configuration for Success,Error,Warning,Info messages.
+ * Note: All icons used in messages are included as IMAGE using IMG tag
+ */
+/* 
+ * Tabs configuration
+ */
+/* 
+ * Virtual Keypad Configuration
+ */
+/* 
+ * Collapsible section configuration
+ */
+/* 
+ * Modal View configuration 
+ */
+/* 
+ * Download Component configuration 
+ * Defined Download Formats are: Excel, PDF, Text
+ */
+/* 
+ * Listing table configuration
+ */
+/* 
+ * Step tracker configuration
+ */
+/* 
+ * Breadcrumb configuration
+ */
+/* 
+ * Print help, Print preview configuration
+ */
+/* 
+ * Link delink configuration
+ */
+/* 
+ * Password Strength configuration
+ * Below mentioned are the password strength values possible:
+ * 1. too short
+ * 2. weak
+ * 3. fair
+ * 4. strong
+ * 5. very strong
+ * Note: All icons are included as IMAGE using IMG tag
+ */
+/* 
+ * Listing table pagination configuration
+ * Note: Navigation icons are used as IMAGE, not font icons
+ */
+/* 
+ * Hamburger menu configuration
+ */
+/* 
+ * Ticker configuration - Ticker is the live scroll messages 
+ */
+/* 
+ * Widgets configuration
+ */
+/*
+ * This file contains any common $ config params other than the themes/branding related confgurations
+ */
+/*
+ * This file contains the language based directional changes for LTR/RTL languages.
+ * This functionality is not yet integrated into application SCSS. Will be considered when RTL support gets incorporated.
+ */
+/*
+ * This file contains all common functions, mixins which are used across all SCSS files.
+ */
+nav .menu__wrap .menu-more-division {
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Styles from multi level mega menu starts*/
+/* Icons (made with Icomoon.io) */
+@font-face {
+  font-family: 'feather';
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/feather/feather.eot?1gafuo");
+  src: url("../fonts/feather/feather.eot?1gafuo#iefix") format("embedded-opentype"), url("../fonts/feather/feather.woff2?1gafuo") format("woff2"), url("../fonts/feather/feather.ttf?1gafuo") format("truetype"), url("../fonts/feather/feather.woff?1gafuo") format("woff"), url("../fonts/feather/feather.svg?1gafuo#feather") format("svg");
+}
+.icon {
+  font-family: 'feather';
+  font-weight: normal;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-transform: none;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  speak: none;
+}
+
+.icon--arrow-left:before {
+  content: '\e901';
+}
+
+.icon--menu:before {
+  content: '\e903';
+}
+
+.icon--cross:before {
+  content: '\e117';
+}
+
+/* Menu styles */
+.menu {
+  position: fixed;
+  top: 120px;
+  left: 0;
+  width: 320px;
+  /*modified for lumei*/
+  height: calc(100vh - 120px);
+  background: #1c1d22;
+}
+
+.menu__wrap {
+  position: absolute;
+  top: 3.5em;
+  bottom: 0;
+    /*overflow: hidden; Changed for LUMEI
+	overflow-y: auto;*/
+  width: 100%;
+  height: 55%;
+}
+
+.menu__level {
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  overflow: hidden;
+  /*overflow-y: hidden;*/
+  width: calc(100% + 50px);
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.menu__level--current {
+  visibility: visible;
+}
+
+.menu__item {
+  display: block;
+  width: calc(100% - 50px);
+}
+
+.menu__link {
+  -o-transition: color 0.1s;
+  -ms-transition: color 0.1s;
+  -moz-transition: color 0.1s;
+  -webkit-transition: color 0.1s;
+  transition: color 0.1s;
+  font-weight: 600;
+  position: relative;
+  display: block;
+  padding: 1em 2.5em 1em 1.5em;
+  color: #BDBDBD;
+}
+
+.menu__link[data-submenu]::after {
+  content: '\e904';
+  font-family: 'feather';
+  position: absolute;
+  right: 0;
+  padding: 0.25em 1.25em;
+  color: #2a2b30;
+}
+
+.menu__link:hover,
+.menu__link[data-submenu]:hover::after {
+  color: #5c5edc;
+}
+
+.menu__link--current::before {
+  content: '\00B7';
+  font-size: 1.5em;
+  line-height: 0;
+  position: absolute;
+  top: 50%;
+  left: 0.5em;
+  height: 4px;
+  color: #5c5edc;
+}
+
+[class^='animate-'],
+[class*=' animate-'] {
+  visibility: visible;
+}
+
+.animate-outToRight .menu__item {
+  -webkit-animation: outToRight 0.6s both cubic-bezier(0.7, 0, 0.3, 1);
+  animation: outToRight 0.6s both cubic-bezier(0.7, 0, 0.3, 1);
+}
+
+@-webkit-keyframes outToRight {
+  to {
+    filter: alpha(opacity=0);
+    opacity: 0;
+    -o-transform: translate3d(100%, 0, 0);
+    -ms-transform: translate3d(100%, 0, 0);
+    -moz-transform: translate3d(100%, 0, 0);
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+}
+@keyframes outToRight {
+  to {
+    filter: alpha(opacity=0);
+    opacity: 0;
+    -o-transform: translate3d(100%, 0, 0);
+    -ms-transform: translate3d(100%, 0, 0);
+    -moz-transform: translate3d(100%, 0, 0);
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+}
+.animate-outToLeft .menu__item {
+  -webkit-animation: outToLeft 0.6s both cubic-bezier(0.7, 0, 0.3, 1);
+  animation: outToLeft 0.6s both cubic-bezier(0.7, 0, 0.3, 1);
+}
+
+@-webkit-keyframes outToLeft {
+  to {
+    filter: alpha(opacity=0);
+    opacity: 0;
+    -o-transform: translate3d(-100%, 0, 0);
+    -ms-transform: translate3d(-100%, 0, 0);
+    -moz-transform: translate3d(-100%, 0, 0);
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+@keyframes outToLeft {
+  to {
+    filter: alpha(opacity=0);
+    opacity: 0;
+    -o-transform: translate3d(-100%, 0, 0);
+    -ms-transform: translate3d(-100%, 0, 0);
+    -moz-transform: translate3d(-100%, 0, 0);
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+.animate-inFromLeft .menu__item {
+  -webkit-animation: inFromLeft 0.6s both cubic-bezier(0.7, 0, 0.3, 1);
+  animation: inFromLeft 0.6s both cubic-bezier(0.7, 0, 0.3, 1);
+}
+
+@-webkit-keyframes inFromLeft {
+  from {
+    filter: alpha(opacity=0);
+    opacity: 0;
+    -o-transform: translate3d(-100%, 0, 0);
+    -ms-transform: translate3d(-100%, 0, 0);
+    -moz-transform: translate3d(-100%, 0, 0);
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+  to {
+    filter: alpha(opacity=100);
+    opacity: 1;
+    -o-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes inFromLeft {
+  from {
+    filter: alpha(opacity=0);
+    opacity: 0;
+    -o-transform: translate3d(-100%, 0, 0);
+    -ms-transform: translate3d(-100%, 0, 0);
+    -moz-transform: translate3d(-100%, 0, 0);
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+  to {
+    filter: alpha(opacity=100);
+    opacity: 1;
+    -o-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+.animate-inFromRight .menu__item {
+  -webkit-animation: inFromRight 0.6s both cubic-bezier(0.7, 0, 0.3, 1);
+  animation: inFromRight 0.6s both cubic-bezier(0.7, 0, 0.3, 1);
+}
+
+@-webkit-keyframes inFromRight {
+  from {
+    filter: alpha(opacity=0);
+    opacity: 0;
+    -o-transform: translate3d(100%, 0, 0);
+    -ms-transform: translate3d(100%, 0, 0);
+    -moz-transform: translate3d(100%, 0, 0);
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+  to {
+    filter: alpha(opacity=100);
+    opacity: 1;
+    -o-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes inFromRight {
+  from {
+    filter: alpha(opacity=0);
+    opacity: 0;
+    -o-transform: translate3d(100%, 0, 0);
+    -ms-transform: translate3d(100%, 0, 0);
+    -moz-transform: translate3d(100%, 0, 0);
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+  to {
+    filter: alpha(opacity=100);
+    opacity: 1;
+    -o-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+.menu__breadcrumbs {
+  font-size: 0.65em;
+  line-height: 1;
+  position: relative;
+  padding: 2.5em 3.75em 1.5em 2.5em;
+}
+
+.menu__breadcrumbs a {
+  font-weight: bold;
+  display: inline-block;
+  cursor: pointer;
+  vertical-align: middle;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #5c5edc;
+}
+
+.menu__breadcrumbs a:last-child {
+  pointer-events: none;
+}
+
+.menu__breadcrumbs a:hover {
+  color: #8182e0;
+}
+
+.menu__breadcrumbs a:not(:last-child)::after {
+  content: '\e902';
+  font-family: 'feather';
+  display: inline-block;
+  padding: 0 0.5em;
+  color: #33353e;
+}
+
+.menu__breadcrumbs a:not(:last-child):hover::after {
+  color: #33353e;
+}
+
+.menu__back {
+  font-size: 1.05em;
+  position: absolute;
+  z-index: 100;
+  top: 0;
+  right: 2.25em;
+  margin: 0;
+  padding: 1.365em 0.65em 0 0;
+  cursor: pointer;
+  color: #2a2b30;
+  border: none;
+  background: none;
+}
+
+.menu__back--hidden {
+  pointer-events: none;
+  filter: alpha(opacity=0);
+  opacity: 0;
+}
+
+.menu__back:hover,
+.menu__back:focus {
+  color: #FFFFFF;
+  outline: none;
+}
+
+/* Open and close buttons */
+.action {
+  position: absolute;
+  display: block;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.action:focus {
+  outline: none;
+}
+
+.action--open {
+  font-size: 1.5em;
+  top: 1em;
+  left: 1em;
+  display: none;
+  color: #FFFFFF;
+  position: fixed;
+  z-index: 1000;
+}
+
+.action--close {
+  font-size: 1.1em;
+  top: 1.25em;
+  right: 1em;
+  display: none;
+  color: #45464e;
+}
+
+@media screen and (max-width: 1em) {
+  .action--open,
+  .action--close {
+    display: block;
+  }
+
+  .menu {
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    -o-transform: translate3d(-100%, 0, 0);
+    -ms-transform: translate3d(-100%, 0, 0);
+    -moz-transform: translate3d(-100%, 0, 0);
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+  }
+
+  .menu--open {
+    -o-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+/* Styles from multi level mega menu Ends*/
+/* Styles from mega menu css starts*/
+.dashboard-menu-container {
+  -o-transform: translate3d(-320px, 0px, 0px);
+  -ms-transform: translate3d(-320px, 0px, 0px);
+  -moz-transform: translate3d(-320px, 0px, 0px);
+  -webkit-transform: translate3d(-320px, 0px, 0px);
+  transform: translate3d(-320px, 0px, 0px);
+  -o-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  position: fixed;
+  z-index: 6001 !important;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 100%;
+  width: 320px;
+}
+
+.dashboard-menu-container.expanded {
+  -o-transform: translate3d(0px, 0px, 0px);
+  -ms-transform: translate3d(0px, 0px, 0px);
+  -moz-transform: translate3d(0px, 0px, 0px);
+  -webkit-transform: translate3d(0px, 0px, 0px);
+  transform: translate3d(0px, 0px, 0px);
+}
+
+.menu__item {
+  line-height: 1.2em;
+}
+
+.menu__breadcrumbs a {
+  font-weight: 400;
+  padding-left: 28px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  display: block;
+  background-color: #E0E0E0;
+}
+
+.menu__breadcrumbs a:nth-child(2) {
+  /*border-bottom: 1px solid black;*/
+}
+
+.menu__breadcrumbs a:not(:last-child):not(:first-child) {
+  padding-left: 60px;
+  text-decoration: none;
+}
+
+.menu__breadcrumbs {
+  -o-box-shadow: none;
+  -ms-box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  padding: 0px;
+}
+
+#ml-menu {
+  background-color: #FFFFFF;
+  height: 100%;
+  overflow-y: auto;
+  /*Changed for LUMEI*/
+  /*overflow-y: scroll;*/
+  /*overflow-x: hidden;*/
+  overflow-y: hidden;
+}
+
+.menu__link {
+  font-size: 15px;
+  font-weight: 400;
+  color: #000000;
+  border-left: 0px solid #FFFFFF;
+  /*Modified for lumei*/
+  position: relative;
+  margin-right: -11px;
+}
+
+.menu__link:hover {
+  color: #000000;
+  background-color: #F5F5F5;
+  border-left: 0px solid #F1F1F1;
+  /*Modified for lumei*/
+  margin-right: -11px;
+}
+
+.menu__link[data-submenu]:hover::after {
+  color: #000000;
+  /*background-color: #E3F2FD;*/
+}
+
+.menu__link--current,
+.menu__link--current:hover {
+  background-color: #D9EEFE;
+  border-left: 5px solid #0F9CFF;
+  color: #2b98f0;
+}
+
+.menu__item a.menu__link--current:focus {
+  background-color: #D9EEFE;
+  border-left: 5px solid #0F9CFF;
+  color: #2b98f0;
+}
+
+.menu__link--current::before {
+  content: none;
+}
+
+.dashboard-menu-container nav {
+  background-color: #FFFFFF;
+}
+
+#ml-menu .icon-menu {
+  color: #000000;
+  font-size: 20px;
+}
+
+.menu__breadcrumbs a {
+  color: #000000;
+  position: relative;
+  font-size: 15px;
+  text-transform: none;
+}
+
+.menu__breadcrumbs a:last-child {
+  background-color: #D9EEFE;
+}
+
+.menu__breadcrumbs a:first-child {
+  background-color: #FFFFFF !important;
+}
+
+.menu__level {
+  margin-top: 67px;
+  margin-top: 65px\0;
+  overflow-y: auto;
+  /*overflow: initial;*/
+}
+
+.menu {
+  top: 0px;
+  height: 100%;
+  position: relative;
+}
+
+.dashboard-menu-container .container-menu {
+  height: 100%;
+}
+
+#ml-menu .logo {
+  padding-top: 26px;
+  padding-left: 20px;
+  /* background: url("../images/menu_logo.png") no-repeat scroll left 0 color("shades", "transparent");
+  height: 36px;
+  margin-top: 21px;
+  margin-left: 19px;
+  width: 208px;*/
+}
+
+.menu__wrap {
+  top: 44px;
+  /*overflow: initial;*/
+}
+
+.main-menu-string {
+  text-transform: none;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.menu__breadcrumbs .main-menu-btn-link {
+  display: none;
+}
+
+.menu__breadcrumbs a:hover {
+  color: #000000;
+}
+
+.menu__level {
+  height: 100%;
+  width: 100% !important;
+  /*Changed for LUMEI */
+  margin-top: 66px !important;
+  /*Changed for LUMEI */
+  padding-bottom: 90px;
+}
+
+.menu__level li {
+  width: 100%;
+}
+
+.dashboard-menu-container {
+  display: block;
+  height: 100%;
+}
+
+.action--open {
+  /*display: none;*/
+}
+
+nav .menu__wrap .menu-more-division {
+  width: 100%;
+  border-bottom: 1px solid #757575;
+  margin-top: 40px;
+  line-height: 20px;
+  /* Added for LUMEI*/
+}
+
+nav .menu__wrap .menu-more-division a {
+  color: #000000;
+  padding-left: 25px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #000000;
+  text-decoration: none;
+}
+
+nav .menu__wrap .menu-more-division a:hover {
+  cursor: default;
+}
+
+.menu__link[data-submenu]::after {
+  font-family: 'icomoon';
+  content: "\e920";
+  font-size: 12px;
+  color: #000000;
+  position: absolute;
+  /*Different from robosoft style*/
+  right: 8px !important;
+  top: 13px;
+}
+
+.menu__breadcrumbs a:not(:last-child)::after {
+  content: none;
+}
+
+.menu__breadcrumbs a:not(:last-child):not(:first-child)::after {
+  font-family: 'icomoon';
+  font-size: 18px;
+  content: "\e913";
+  position: absolute;
+  left: 20px;
+  top: 13px;
+}
+
+.menu__breadcrumbs a:not(:first-child)::before {
+  font-family: 'icomoon';
+  font-size: 15px;
+  content: "\e920";
+  position: absolute;
+  left: 129px;
+  /*top: 46px;*/
+  bottom: -14px;
+  -ms-transform: rotate(90deg);
+  /* IE 9 */
+  -webkit-transform: rotate(90deg);
+  /* Safari */
+  transform: rotate(90deg);
+  z-index: 1;
+  color: #E0E0E0;
+}
+
+.menu__breadcrumbs a:last-child:before {
+  color: #D9EEFE;
+}
+
+.menu__breadcrumbs a.second-breadcrumb {
+  border-bottom: 1px solid #E0E0E0;
+}
+
+.menu__breadcrumbs a.second-breadcrumb::before {
+  color: #E0E0E0;
+}
+
+.menu-more-division a:hover {
+  background-color: #FFFFFF;
+}
+
+.menu__item a:focus {
+  border-bottom: none;
+  background-color: #E0E0E0;
+}
+
+.menu-more-division a.menu__link--current {
+  background-color: #FFFFFF;
+  border-left: none !important;
+}
+
+.main-menu-btn-wrapper .icon-menu::before {
+  padding-left: 0px !important;
+  padding-bottom: 1px !important;
+  vertical-align: middle;
+}
+
+.megamoreIcon::before {
+  font-size: 14px !important;
+  cursor: pointer;
+  /* added for mouse handover */
+}
+
+.megamoreIcon {
+  line-height: 21px;
+}
+
+/* Styles from mega menu css Ends*/
+
+/*# sourceMappingURL=mega-menu.css.map */

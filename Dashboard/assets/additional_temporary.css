@@ -1,0 +1,224 @@
+.myprofilehome_label_column1,
+.myprofilehome_details_column1 {
+    width: 100%;
+}
+.myprofile_photoformattext
+{
+font-size:13px;
+}
+.bluelink {
+    font-size: 14px !important;
+}
+.labelColumn_text_brdr_toosmall {
+    /* to be added in new_style_hw_delta_ux5.css  line no 1765*/  
+    width: 76px !important;
+}
+@media screen and (min-width: 480px) and (max-width: 551px) {
+    h3.listingcol {
+        border-right: 1px solid #D4D4D4;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 639px) {
+    .tableoverflowwrapperhw {
+        overflow: hidden;
+    }
+}
+/*Border issue for the Transaction --Start */
+
+.ui-dialog .querytextleft_width100percent_withtextalignleft {
+    border: 1px solid #CCC;
+    width: 99.6% !important;
+    /*Added for Service Req issue*/
+}
+.ui-dialog .querytextleft_width100percent_withtextalignleft span {
+    border: none;
+}
+.ui-dialog .collapsiblePosition {
+    border-top: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+}
+.ui-dialog .stage3_inputpanel_leftcontainer {
+    border-top: none;
+    border-bottom: none;
+}
+.ui-dialog .pageLeftContainer {
+    border-top: none !important;
+}
+.ui-dialog .pageLeftContainer .stage3_inputpanel_leftcontainer {
+    border-bottom: 1px solid #CCC;
+}
+.ui-dialog .width100percent_withmargin {
+    border-bottom: none;
+}
+/*Border issue for the Transaction --End */
+/*Border issue for the Service Request --Start */
+
+.ui-dialog .listingrow span.querytextleft_width100percent_withtextalignleft {
+    border: none !important;
+}
+.ui-dialog .width100percent .querytextleft_withleftBorder_Auth {
+    border-right: 1px solid #ccc;
+    width: 99.85%;
+    border-bottom: 1px solid #CCC;
+}
+.ui-dialog .listingrow .querytextleft_width100percent_withtextalignleft div.width100percent.querytextleft_withleftBorder_Auth {
+    border-right: none;
+    width: 100%;
+    border-bottom: none;
+}
+.servicereqoverlaytopborderissue {
+    border-top: none !important;
+}
+/*Border issue for the Service Request --End */
+/* changing labelColumn style for City and State Text and lookup Alignment*/
+
+.labelColumn {
+    width: 45% !important;
+}
+.ui-dialog input.past-datepicker {
+    margin-top: 12px !important;
+}
+.searchsimpletext_width60percent {
+    width: 60%;
+}
+.ui-dialog .stage3_inputpanel_leftcontainer .stage3_leftrightmainpanel_NoSeparator {
+    border-bottom: 1px solid #CCC;
+}
+.ui-dialog .pageLeftContainer .stage3_inputpanel_leftcontainer .stage3_leftrightmainpanel_NoSeparator {
+    border-bottom: none !important;
+}
+label.css-labelradio {
+    background-image: url(../images/backgrounds/icoChecked.png);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+label.css-labelradio_UX5 {
+    background-image: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* added by Meghana for removing margin between italic text note content*/
+
+.nomargindayend {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    padding-bottom: 10px;
+    padding-right: 5px;
+}
+.footable.breakpoint>tbody>tr:first-child>td.isPullDown.footable-last-column:after {
+    padding-right: 10px;
+    float: right;
+}
+.footable.breakpoint>tbody>tr:first-child>td.footable-last-column:after {
+    padding-right: 0px;
+    float: none;
+}
+.footable.breakpoint>tbody>tr:first-child.footable-detail-show>td.isPullDown.footable-last-column:after {
+    float: right;
+}
+.footable.breakpoint>tbody>tr:first-child.footable-detail-show>td.footable-last-column:after {
+    float: none;
+}
+@media screen and (min-width: 480px) and (max-width: 551px) {
+    .pageLeftContainer {
+        float: left;
+        width: 99.8%;
+    }
+}
+/*session time out Kamlesh*/
+.rightwithmargin{
+margin-top: -13px;
+}
+
+#sessionPopup {
+	border:1px solid #000000;
+	background-color:#FFFFFF;
+	font-size:1em;
+	font-weight: normal;
+	width:99%;
+	height:99%;
+}
+#sessionPopupTitle {
+/* 	background: url(../images/sessionAlertImg.png) repeat; */
+	color: black;
+	background-color: #cdcdcd;
+	padding: 7px 10px;
+	font-size: 13px;
+	font-weight: normal;
+	font-family: Roboto-Regular,OpenSans, Arial, Helvetica, sans-serif !important;
+}
+.sessionExpiredRow {
+	color:FireBrick;
+	padding:10px 60px;
+	font-weight: normal;
+	/*background: url(../images/new_alert_icon.png) no-repeat scroll 15px 0 transparent;*/
+	background: url(../images/warning_material.png) no-repeat scroll 15px 0 transparent;
+	font-size: 13px;
+	padding-top: 8px;
+    padding-left: 50px;
+    font-family: Roboto-Regular,OpenSans, Arial, Helvetica, sans-serif !important;
+}
+.reloginMsgRow {
+	padding:20px;	
+	line-height: 24px;
+	font-size: 14px;
+	font-family: Roboto-Regular,OpenSans, Arial, Helvetica, sans-serif !important;
+}
+/*Added by Indrajit for tabs style start*/
+.tabButtonStyleActive {
+    margin: auto;
+    display: block;
+    background-color: #fff !important;
+    height: 18px;
+    box-shadow: none!important;
+    border-bottom: 3px solid #2196f3;
+    color: #2196f3 !important;
+    border-radius: 0px;
+    padding: 12px 3px;
+    padding-top: 12px;
+    padding-right: 3px;
+    padding-bottom: 12px;
+    padding-left: 3px;
+}
+.tabButtonStyleInactive
+{
+    margin: auto;
+    display: block;
+    background-color: #fff !important;
+    height: 18px;
+    box-shadow: none!important;
+    color: #757575 !important;
+    border-radius: 0px;
+    padding: 12px 3px;
+    padding-top: 12px;
+    padding-right: 3px;
+    padding-bottom: 12px;
+    padding-left: 3px;
+}
+/*Added by Indrajit for tabs style end*/
+
+/*added by Kamlesh for retail user responsive issue*/
+.paddingrightpulldown{
+      padding-right:2px;
+      padding-left:0px;
+}
+
+.stage3_searchsimpletext {
+	color: #262a2c;
+	
+	font-size: 0.69em;
+	text-decoration: none;
+	float: left;
+	padding-top: 11px;/*next-gen*/
+	padding-right: 5px;
+	padding-left: 10px;/*next-gen*/
+}

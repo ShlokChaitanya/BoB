@@ -1,0 +1,189 @@
+/*
+ * This file contains only consumer specific styles which are not part of corporate. 
+ */
+/*
+* Direction
+* Default Configuration
+* Font 
+* Header, Body and footer configuration
+* Links
+* Scrollbar 
+* Notification Bubble 
+* Mask 
+* Box Shadow Parameters
+* Button
+* Forms
+* Date Picker
+* Message Display
+* Tabs
+* Virtual Keypad
+* Collapsible section
+* Modal View
+* Download Component
+* Table
+* Step tracker
+* Breadcrumb
+* Print help, Print preview
+* Link delink
+* Password Strength
+* Pagination 
+* Hamburger menu
+* Ticker
+* Widgets
+*/
+/*
+ * This file contains the color palette configuration defined in application
+ * for various colors shades. Any color added in style sheet should be from
+ * this defined set of color palettes only
+ */
+/* 
+ * Get the corresponding hex code for the color
+ * Usage: color("name_of_color", "type_of_color")
+ * Example: $primary-color: color("red", "lighten-2");
+ */
+/* Direction - Used for RTL/LTR support. Not yet implemented.
+ * Possible values are: 
+ * ltr (for Left to Right languages)
+ * rtl (for right to left languages)
+ */
+/* Default Configurations 
+ * Every bank will be associated with a default theme which will be a combination 
+ * of a primary color and a secondary color.
+ */
+/* new theme orange introduced*/
+/* Font - The default font family (Roboto) used in applications are mentioned here.
+ * Recommendation is not to change the font family as application font family has been decided as per 
+ * Google material design recommendation.
+ * Changing font family will have below mentioned impacts:
+ * 	1. font sizes, font weight needs to be redefined across application style sheets as per the new font family.
+ *  2. Any alignment issues due to the font change needs to be taken care.
+ */
+/* icomoon and fontawesome font families are used mostly for icon sets used in application screens */
+/* Application heading related configurations */
+/* Header, Body and footer configurations used in login screens and post login application screens */
+/* Pre-login screens related configuration */
+/* Post login application  screen configuration */
+/* Hyperlink configuration */
+/* Scrollbar configuration 
+ * Some browsers doesn't support changing the native default scrollbars. The below style changes 
+ * might not reflect in such browsers.
+ */
+/* Left hand side and Right hand side vertical and horizontal bar configurations */
+/* Notification Bubble 
+ * Used in header for showing notification count for Alerts, Mails and Mails count in hamburger menu
+ */
+/* Mask - Used mainly as a background for overlay screens to mask user from clicking 
+ * on the background screen components.
+ */
+/* Box Shadow Configuration 
+ * Used to give shadow effects to ovarlays, containers, components, pulldowns. Multiple shadow attributes
+ * are defined which can be used across application screens.
+ */
+/* Buttons
+ * Application buttons fall into below mentioned categories:
+ * 1. Primary Button 
+ * 2. Secondary Button
+ * 3. Flat Button  - should look like a normal text on screen, but actually its a button in backend
+ * 4. Disabled Button - used for displaying disabled(non clickable/read only) buttons
+ * Configuration allows you to change to sharp edges of buttons, color, shadow, case of text etc.
+ * Note: If case of button text is changed, ensure to give proper font-size also to avoid any distortion.
+ */
+/* Form Configurations
+ * Contains form elements:
+ * 1. Input fields.
+ * 2. Labels
+ * 3. Check boxes
+ * 4. Radio buttons
+ * 5. Combo boxes
+ * 6. Text area
+ * 7. Mandatory star *
+ * 8. Place holder
+ */
+/* 
+ * Date Picker configuration
+ * Configuration allows you to customize the date picker styles
+ */
+/* 
+ * Message Display 
+ * Configuration for Success,Error,Warning,Info messages.
+ * Note: All icons used in messages are included as IMAGE using IMG tag
+ */
+/* 
+ * Tabs configuration
+ */
+/* 
+ * Virtual Keypad Configuration
+ */
+/* 
+ * Collapsible section configuration
+ */
+/* 
+ * Modal View configuration 
+ */
+/* 
+ * Download Component configuration 
+ * Defined Download Formats are: Excel, PDF, Text
+ */
+/* 
+ * Listing table configuration
+ */
+/* 
+ * Step tracker configuration
+ */
+/* 
+ * Breadcrumb configuration
+ */
+/* 
+ * Print help, Print preview configuration
+ */
+/* 
+ * Link delink configuration
+ */
+/* 
+ * Password Strength configuration
+ * Below mentioned are the password strength values possible:
+ * 1. too short
+ * 2. weak
+ * 3. fair
+ * 4. strong
+ * 5. very strong
+ * Note: All icons are included as IMAGE using IMG tag
+ */
+/* 
+ * Listing table pagination configuration
+ * Note: Navigation icons are used as IMAGE, not font icons
+ */
+/* 
+ * Hamburger menu configuration
+ */
+/* 
+ * Ticker configuration - Ticker is the live scroll messages 
+ */
+/* 
+ * Widgets configuration
+ */
+/*
+ * This file contains any common $ config params other than the themes/branding related confgurations
+ */
+/*
+ * This file contains the language based directional changes for LTR/RTL languages.
+ * This functionality is not yet integrated into application SCSS. Will be considered when RTL support gets incorporated.
+ */
+/*
+ * This file contains all common functions, mixins which are used across all SCSS files.
+ */
+.widget-medium .widget-content {
+  background: #FFFFFF;
+  padding-bottom: 2px;
+  min-height: 304px;
+  max-height: 304px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  border: 1px #E0E0E0 solid;
+}
+
+.makerTransferHeading {
+  padding-top: 7px !important;
+}
+
+/*# sourceMappingURL=retailSpecificStyles.css.map */

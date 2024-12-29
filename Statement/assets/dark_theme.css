@@ -1,0 +1,688 @@
+.darkColorClass h1{
+ color: #FFFFFF !important;
+}
+
+.darkColorClass h2{
+ color: #FFFFFF !important;
+}
+
+.darkColorClass h3,.darkColorClass h3 .h3Font{
+ color: #FFFFFF !important;
+    background: #222;
+}
+
+.darkColorClass h4{
+ color: #FFFFFF !important;
+}
+
+.darkColorClass h5{
+ color: #FFFFFF !important;
+}
+
+.darkColorClass h6{
+ color: #FFFFFF !important;
+}
+
+.darkColorClass p,.darkColorClass .step-text{
+ color: #FFFFFF !important;
+}
+.darkColorClass .stage3_steptracker_mandatory,.darkColorClass .redstar{
+	color:#fff;
+}
+.darkColorClass .step-tracker .step-tracker-head-content .step-status .step-number1{
+	background-color: #222;
+}
+.darkColorClass .btn{
+  background-color: #fff !important;
+  color: #222 !important;
+}
+
+.darkColorClass a{
+  color: #fff !important;
+}
+.darkColorClass .stage3_previewconfirm_details_column .simpletext{
+	color:#fff;
+}
+/* Header Start */
+.darkColorClass #wrapper1 {
+  background-color:#333 !important;
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 3px 20px 0 #fff;
+}
+
+.darkColorClass .notifyIconLink, .darkColorClass .mailsIconLink, .darkColorClass .logoutLink, .darkColorClass .spaceIconLink {
+    color: #fff !important;
+}
+
+.darkColorClass .headertext_name {
+ color: #fff !important;
+}
+
+
+.darkColorClass .headerLogoutLink::before {
+    color: #fff !important;
+}
+
+.darkColorClass .personNameCaret {
+    color: #fff !important;
+}
+.darkColorClass .widget-small .widget-content {
+    background-color: #222 !important;
+}
+.darkColorClass .searchsimpletext {
+	color:#fff !important;
+}
+.darkColorClass .mailsBox,.darkColorClass .alertBx {
+    background-color: #222 !important;
+    border: 2px solid #fff;
+}
+.darkColorClass .view-all-link{
+	background-color: #222 !important;
+}
+.darkColorClass .view-all-link a{
+	color: #fff !important;
+}
+.darkColorClass .name_ProfileBx,.darkColorClass .header-label {
+	color: #fff !important;
+}
+.darkColorClass input[type=input],.darkColorClass input[type=text],.darkColorClass input[type=password],
+.darkColorClass input[type=email],.darkColorClass input[type=url],.darkColorClass input[type=time],.darkColorClass input[type=date],
+.darkColorClass input[type=datetime-local],.darkColorClass input[type=tel],.darkColorClass input[type=number],
+.darkColorClass input[type=search],.darkColorClass textarea.materialize-textarea {
+color: #fff !important;
+}
+.darkColorClass .autocomplete-icon {
+	color: #fff !important;
+}
+.darkColorClass .autocomplete-icon,.darkColorClass #sessionTimeoutText,.darkColorClass #sessionExpiryTime,
+.darkColorClass .headertext_name_v,.darkColorClass .sessionTimeoutText_simpletext,
+.darkColorClass .headertext_lastlog,.darkColorClass .lastlogtext_grey {
+	color: #fff !important;
+}
+.darkColorClass .ui-widget-content,.darkColorClass .section_grayborder{
+	background-color: #222 !important;
+	color:#fff !important;
+}
+.darkColorClass .blackSignoffConfirmation,.darkColorClass .txtBoldBlack_logout{
+	color: #fff !important;
+}
+/* Header End
+
+/* Top Bar Start */
+
+.darkColorClass .menuListContainer> li > .liFontBold {
+  color: #fff !important;
+}
+
+.darkColorClass #topbarNew {
+  background-color:#222 !important;
+}
+
+.darkColorClass .menuListContainer> li:hover, .darkColorClass .menuListContainer> li.active, .darkColorClass .menuListItems, .sub-menu > li:hover {
+       background: #333;
+}
+.darkColorClass .mega-menu-list-wrapper > ul > li.nbs-flexisel-item {
+    background: #222 !important;
+}
+.darkColorClass .mega-menu-list-wrapper > ul > li.nbs-flexisel-item:hover{
+    background: #fff !important;
+}
+.darkColorClass .sub-menu > li {
+    background: #222;
+}
+/* Top Bar End  */
+
+
+/* Footer Start */
+.darkColorClass .footer-wrapper {
+    background-color: #222 !important;
+}
+
+
+.darkColorClass .footer-wrapper .footer-links a {
+    color: #FFFFFF !important;
+}
+
+/* Footer End */
+
+/* Middle Content Start */
+/*
+.darkColorClass .wrapper_bkgcolor {
+        background-color: #75757573 !important;
+} */
+
+.darkColorClass .breadcrumb-block .breadcrumb:last-child{
+ color: #FFFFFF !important;
+ background-color: #222 !important;
+}
+
+.darkColorClass .breadcrumb-block .breadcrumb {
+    color: #fff !important;
+    background-color: #222 !important;
+}
+
+.darkColorClass .pageLeftContainer,.darkColorClass .stage3_inputpanel_leftcontainer,.darkColorClass .section_blackborder {
+ background-color: #222 !important;
+}
+.darkColorClass .expandMenu_SRListing_ie10:after, .darkColorClass .expandMenu_SRListing:after {
+color: #FFFFFF !important;
+}
+
+.darkColorClass .queryitalictextwithspace_srnotes {
+ color: #FFFFFF !important;
+
+}
+
+.darkColorClass .autocomplete-values-list {
+	background-color:#333 !important;
+}
+.darkColorClass .tabs-with-navigation .tabs .tab a.active, .darkColorClass .tabs-with-navigation .tabs .tab a:hover, .darkColorClass .autocomplete-values-list li {
+    color: #fffff !important;
+}
+/* Middle Content End */
+
+/
+
+* Floating Bar Start */
+.darkColorClass .rhsExpandIcon {
+    background-color:#222 !important;
+}
+
+.darkColorClass .rhsWidgetsShowInResp {
+	background-color:#333333de !important;
+}
+
+.darkColorClass .rhsCollpaseRightIcon {
+	background-color:#222 !important;
+}
+
+.darkColorClass .widget-xtrasmall .widget-content{
+	background-color:#222 !important;
+}
+
+.darkColorClass .stage3_rtpanelquicklinkcol {
+	color: #FFFFFF !important;
+}
+.darkColorClass .stage3_quicklink_nextGen {
+color: #FFFFFF !important;
+}
+.darkColorClass .simpletext_star {
+color: #FFFFFF !important;
+}
+.darkColorClass .btn-flat {
+	color: #fff !important;
+}
+.darkColorClass .timelineExpand{
+	background-color: #333333de;
+}
+.darkColorClass .closeBtn {
+	 background-color: #222; 
+}
+.darkColorClass .timelineCollpaseIcon:before{
+	color: #222;
+}
+.darkColorClass #timelineImageExpand,.darkColorClass #rhsImageExpand {
+	    background-color: #222 !important;
+}
+
+/* Floating Bar End */
+
+/* Dashboard Widget Start */
+
+.darkColorClass .widget-medium .widget-content {
+background-color: #333;
+}
+.darkColorClass .widget-head {
+    background-color: #222;
+}
+.darkColorClass #DASHC2 .widget-head {
+    background-color: #222 !important;
+}
+/* Welcome Widget Start */
+.darkColorClass .simpletext_wishMsg, .darkColorClass .simpletext_welMsg, 
+.darkColorClass .simpletext_welMsg1,.darkColorClass .simpletext_loginLabel,
+.darkColorClass .simpletext_loginTime, .darkColorClass .lastlogtext_grey_new {
+  color: #fff;
+}
+.darkColorClass .personalizeDashLink,.darkColorClass .blueDivider,.darkColorClass .stage3_menuIdTextlink a, 
+.darkColorClass .widget-small a.bluelink:hover,.darkColorClass .personalizeDashLink:hover,
+.darkColorClass .widget-small a.bluelink,.darkColorClass table td .menuSideArrowImageForMenuChoices a {
+    color: #fff!important;
+}
+/* Welcome Widget End */
+.darkColorClass .tabs-with-navigation .tabs .tab a.active,.darkColorClass .tabs-with-navigation .tabs .tab a:hover,.darkColorClass .autocomplete-values-list li {
+    color: #fff;
+}
+.darkColorClass #DASHL1 .widget-medium {
+	border: 1px solid #fff !important;
+}
+.darkColorClass .ui-dialog .ui-dialog-title, .darkColorClass .overlayHeaderStyle,
+.darkColorClass .widget-library .widget-name{
+	color: #fff !important
+}
+.darkColorClass .widget-library .collapsible,.darkColorClass .widget-library .collapsible-header { 
+	background-color:#333 ;
+}
+.darkColorClass .filterLabelStyle{
+	color: #fff !important
+}
+.darkColorClass [type="checkbox"].filled-in:checked + label:after{
+	border-color: #fff;
+    background-color: #222;
+}
+.darkColorClass .collapseMenu_SRListing_ie10:after, .collapseMenu_SRListing:after{
+	color: #fff !important;
+}
+.darkColorClass table .HW_head_outerdiv,.darkColorClass table.multiTableHeading > tbody,
+.darkColorClass table.singleTableHeading > tbody {
+background-color: #333 !important;	
+}
+.darkColorClass table.singleTableHeading thead tr:nth-child(1) th {
+    color: #fff;
+}
+.darkColorClass .tab-link.tabmenudisabled{
+    color: #757575!important;
+}
+.darkColorClass .tab.tabactive {
+    border-bottom: 3px solid #fff;
+}
+.darkColorClass table td a.bluelink{
+	 color: #fff !important;
+	 font-weight: bold !important;
+}
+.darkColorClass .searchsimpletext_wrap,.darkColorClass .searchsimpletext_wrapnew {
+	color: #fff !important;
+}
+.darkColorClass table td .searchsimpletext,.darkColorClass table td .searchsimpletext_wrapnew,
+.darkColorClass table td .simpletextwithwidth,.darkColorClass table td .searchsimpletext_accntSummary,
+.darkColorClass table td .hwgreentxt,.darkColorClass table td .hwblacktxt {
+    color: #fff !important;
+}
+.darkColorClass .content input[type=Submit] {
+    color: #333;
+}
+.darkColorClass .pagination-wrapper label {
+    color: #fff;
+}
+.darkColorClass .content input[type=text] {
+	color: #fff !important;
+}
+.darkColorClass .center-container .widget-small,.darkColorClass .center-container .widget-medium{
+	background: #333;
+}
+/* Dashboard Widget End */
+.darkColorClass #main{
+	background: #333333de;
+}
+.darkColorClass input.autocomplete-dropdown.focused {
+	border-bottom: 1px solid #fff;
+	box-shadow: 0 1px 0 0 #bdbdbd;
+}
+.darkColorClass select {
+	background: #fff !important;
+}
+.darkColorClass .breadcrumb-block .breadcrumb:first-child {
+    background: #222 !important;
+}
+.darkColorClass .more.dropdown-button:after{
+	color: #fff;
+}
+.darkColorClass .notopborder.listingcol {
+	    background: #333;
+}
+.darkColorClass .gradientbgtwolinetxt{
+	color: #fff;
+}
+.darkColorClass .stage3_optionallink_accnts {
+	color: #333;
+}
+.darkColorClass .menuChoices,.darkColorClass .widget .menuChoices ul {
+    background-color: #222;
+}
+.darkColorClass .mwidlistwhiterow_new,.darkColorClass .mwidlistwhiterow2_new{
+	background-color: #333;
+	color:#fff;
+}
+.darkColorClass #DASHC55 .searchsimpletext_new,.darkColorClass #DASHC55 table td .hwgreentxt,
+.darkColorClass #DASHC55 table td .hwblacktxt,.darkColorClass .renderTextBoxAsLabel_new{
+	color:#fff !important;
+}
+.darkColorClass #DASHC55 .HW_tabletextleft_new,.darkColorClass #DASHC55 .HW_tabletextwithpadding_new  {
+    background-color: #333;
+}
+.darkColorClass #DASHC55 .tableheader_nosort {
+	color:#fff;
+}
+.darkColorClass #DASHC55 .tableheader_nosort,.darkColorClass table.multiTableHeading thead tr:nth-child(1) th,
+.darkColorClass table th .tableHeaderNoSortHW {
+    color: #fff !important;
+}
+.darkColorClass .select-wrapper.jumpYear,.darkColorClass .select-wrapper.jumpYear .jumpYear {
+	 background: #fff !important;
+}
+.darkColorClass .febacal-headerRow .feba-cal-monthwidget-prevmonthwrapper .feba-cal-monthwidget-prevmonthbutton,
+.darkColorClass .febacal-headerRow .feba-cal-monthwidgetnextmonthwrapper .feba-cal-monthwidget-nextmonthbutton{
+	    color: #fff;
+}
+.darkColorClass table.table {
+background: #333;
+}
+.darkColorClass .searchsimpletext_accntSummary_snap,.darkColorClass table.table thead th {
+	color: #fff;
+}
+
+/* Transaction Widget Start */
+.darkColorClass .feba-cal-headerwrapper{
+	border:none !important;
+} 
+.darkColorClass .total-field{
+	color: #fff;
+}
+.darkColorClass .febacal-header-ux3{
+	color:#333
+}
+.darkColorClass .febacal-cell-date{
+	color: #fff;
+}
+.darkColorClass .febacal-cell-ux3.febacal-today-ux3{
+    background-color: #fff;
+}
+.darkColorClass .febacal-cell-ux3.febacal-today-ux3 .febacal-cell-date{
+	color:#333;
+	font-weight:bold;
+}
+.darkColorClass .febacal-cell-ux3.febacal-day-content-has-event-ux3.eventsHighlight {
+    background-color: #fff;
+    color: #333;
+}
+.darkColorClass .febacal-cell-ux3.febacal-day-content-has-event-ux3.eventsHighlight .febacal-cell-date{
+    color: #333;
+}
+.darkColorClass .febacal-cell-ux3.febacal-monthDay.febacal-selected-ux3 .febacal-cell-date{
+	color: #333;
+}
+/* Transaction Widget End */
+.darkColorClass span.icon-HW_formbtn_img_xls:after,.darkColorClass span.icon-HW_formbtn_img_pdf:after,
+.darkColorClass span.icon-HW_formbtn_img_txt:after {
+	    color: #fff;
+}
+.darkColorClass .downloadtext {
+	color: #fff;
+}
+.darkColorClass  .stage3_searchpaneldiv .collapsible-wrapper,.darkColorClass  .stage3_searchpanel_detailsdiv .collapsible-wrapper {
+    background-color: #222 !important;
+    border: 2px solid #fff;
+}
+.darkColorClass .stage3_searchpanellabel,.darkColorClass .stage3_searchpanellabel_block{
+	color: #fff;
+}
+.darkColorClass .stage3_leftrightmainpanel_NoSeparator{
+	background: #222;
+}
+
+.darkColorClass .listrowwrapper:hover > .listwhiterow a.bluelink,.listrowwrapper:hover > .listwhiterow span,
+.darkColorClass .listrowwrapper:hover > .listgreyrow a.bluelink,.listrowwrapper:hover > .listgreyrow span{
+  color:#333!important;
+}
+.darkColorClass .mega-menu-list-wrapper > ul > li.nbs-flexisel-item:hover{
+	background:#fff!important;
+}
+.darkColorClass .mega-menu-list-wrapper > ul > li.nbs-flexisel-item:hover > a.collapsible-header{
+	color:#333!important;
+}
+.darkColorClass .autocomplete-values-list li:hover{
+	color:#333;
+}
+.darkColorClass .stage3_menuIdTextlink li:hover>a{
+	color:#333!important;
+}
+.darkColorClass .widget .menuChoices ul li:hover >a{
+	color:#333 !important;
+}
+.darkColorClass ul.sub-menu > li:hover{
+	background: #fff;
+}
+.darkColorClass ul.sub-menu > li:hover > a.second-child-menu {
+	color: #333!important;
+}
+.darkColorClass .myprofilehome_details_column .searchsimpletextbold2,.darkColorClass .myprofilehome_details_column .simpletextBold{
+	color:#fff;
+}
+.darkColorClass .queryitalictextwithmargin{
+	color:#fff;
+}
+.darkColorClass .h3whitetitle.collapsiblePosition .collapsible-header{
+	color:#fff;
+	background-color:#333;
+}
+.darkColorClass .collapsipleMenu:after,.darkColorClass .expandableMenu:after{
+	color:#fff;
+}
+/* Pre Login Screen Start */
+.darkColorClass  #header.customLoginHeader{
+	    background: #333;
+}
+.darkColorClass .customnewheaderrow{
+	    background: #222;
+}
+.darkColorClass .custom_mainLoginSection .width50percent_login{
+	background-color:#222;
+	border: 1px solid #fff;
+}
+.darkColorClass .custnotification,.darkColorClass .custnotification .ticker{
+	background:#222 !important;
+	
+}
+.darkColorClass .custnotification{
+	 border: 1px solid #fff; 
+}
+.darkColorClass .anouncementsHeadDiv{
+	background-color:#222
+}
+.darkColorClass .custnotification .ticker-text .js-marquee{
+ color:#fff;
+}
+.darkColorClass .popupLinksDiv{
+	background:#222;
+	border:1px solid #fff;
+}
+.darkColorClass #global.next-genHeader.login-body-style {
+    background: #333333de;
+}
+.darkColorClass .footerLine{
+	background-color:#fff;
+}
+.darkColorClass .footer-links li,.darkColorClass .loginfoorter-wrapper .copyright{
+	color:#fff;
+}
+.darkColorClass .customdrop select{
+	border-bottom:2px solid #fff;
+}
+.darkColorClass .popupLinksDiv:hover{
+	background-color:#fff;
+	color:#333;
+}
+.darkColorClass .customLoginHeader .botRightNav li a:hover{
+background-color:#9e9e9e;
+color:#333 !important;
+}
+.darkColorClass .customLoginHeader .botRightNav .locateIcon{
+    background-position: -28px -27px;
+}
+.darkColorClass .customLoginHeader .botRightNav .contactIcon {
+    background-position: -64px -27px;
+}
+.darkColorClass input[type=input]:focus:not([readonly]),
+.darkColorClass input[type=text]:focus:not([readonly]),
+.darkColorClass input[type=password]:focus:not([readonly]),
+.darkColorClass input[type=email]:focus:not([readonly]),
+.darkColorClass input[type=url]:focus:not([readonly]),
+.darkColorClass input[type=time]:focus:not([readonly]),
+.darkColorClass input[type=date]:focus:not([readonly]),
+.darkColorClass input[type=datetime-local]:focus:not([readonly]),
+.darkColorClass input[type=tel]:focus:not([readonly]),
+.darkColorClass input[type=number]:focus:not([readonly]),
+.darkColorClass input[type=search]:focus:not([readonly]),
+.darkColorClass textarea.materialize-textarea:focus:not([readonly]) {
+	border-bottom:1px solid #fff !important;
+	box-shadow: 0 1px 0 0 #fff!important;
+}
+.darkColorClass input[type=text]:focus:not([readonly]) + label,.darkColorClass input[type=password]:focus:not([readonly]) + label,
+.darkColorClass input[type=email]:focus:not([readonly]) + label,.darkColorClass input[type=url]:focus:not([readonly]) + label,
+.darkColorClass input[type=time]:focus:not([readonly]) + label,.darkColorClass input[type=date]:focus:not([readonly]) + label,.darkColorClass input[type=datetime-local]:focus:not([readonly]) + label,
+.darkColorClass input[type=tel]:focus:not([readonly]) + label,.darkColorClass input[type=number]:focus:not([readonly]) + label,.darkColorClass input[type=search]:focus:not([readonly]) + label,
+.darkColorClass textarea.materialize-textarea:focus:not([readonly]) + label,.darkColorClass .containerStyle label.loginPanelSimpleTextStyle.active{
+  color:#fff !important;
+
+}
+.darkColorClass .custrow a,.darkColorClass b{
+	color:#fff !important;
+}
+.darkColorClass .linkPageDetails{
+	background-color:#333;
+}
+.darkColorClass .infoHeading,.darkColorClass .loginHeader,.darkColorClass .loginPanelOtpBodyStyle{
+	color:#fff;
+}
+.darkColorClass .ui-widget-overlay,.darkColorClass .transparentBackground{
+  background: #fff !important;
+}
+.darkColorClass .qp-ui-mask-modal_rhsWidget,.darkColorClass .qp-ui-mask-modal_timelineWidget{
+	background-color:#f5f5f563;
+}
+.darkColorClass .autocomplete-suggestion{
+	background-color:#333;
+	color:#fff;
+}
+.darkColorClass .autocomplete-suggestions div:hover{
+	color:#333 !important;
+}
+.darkColorClass button:focus{
+	outline:none;
+}
+.darkColorClass .botRightNav :focus{
+  outline: 2px solid #fff;
+}
+/* Pre Login Screen End */ 
+.darkColorClass .width100percent input[type="text"].autocomplete-dropdown:disabled{
+	color:#fff!important;
+}
+/* Error msg start */
+.darkColorClass .redbgwithwidth,.darkColorClass .redbg{
+	    background-color: #777;	    
+}
+.darkColorClass .greenbgwithwidth,.darkColorClass .greenbg{
+    background-color: #f5f5f5;
+}
+.darkColorClass .greenbg .errorCodeWrapper p{
+color: #333 !important;
+font-weight: bold;
+}
+.darkColorClass .orangebgwithwidth,.darkColorClass .orangebg{
+    background: #666;
+}
+/* Error msg end */
+
+.darkColorClass .stage3_listingpaneldiv .collapsible-header{
+	background-color:#222;
+}
+.darkColorClass .stage3_listingpaneldiv .collapsible-header:hover > h4{
+	color:#222!important;
+}
+.darkColorClass .picker--opened .picker__holder {
+background-color:#f5f5f563;
+}
+.darkColorClass .picker__date-display,.darkColorClass .picker__weekday-display  {
+    background-color: #222;
+}
+.darkColorClass [type="checkbox"].filled-in:checked + span:after{
+	border: 2px solid #fff;
+    background-color: #333;
+}
+.darkColorClass [type="radio"]:checked + span:after{
+	    background-color: #fff;
+}
+.darkColorClass [type="radio"]:checked + span:before {
+    border: 2px solid #ffff;
+}
+.darkColorClass .picker__day--selected,.darkColorClass .picker__day--selected:hover,
+.darkColorClass .picker--focused .picker__day--selected {
+    background-color: #333;
+}
+.darkColorClass .step-tracker .step-tracker-head-content .step-status .step-tick-icon1{
+	   background-color: #333;
+}
+.darkColorClass label.focused,.darkColorClass label.active{
+	color:#fff!important;
+}
+.darkColorClass .darkButton:focus{
+	border:2px solid #fff;
+}
+.darkColorClass .standardButton:focus{
+	border:2px solid #fff;
+}
+.darkColorClass .closeButton {
+	    background: url(../images/header-sprite.png) -467px -366px no-repeat;
+}
+/* FATCA */
+.darkColorClass .fatca_header {
+    color: #fff;
+}
+/* Snapshot */
+.darkColorClass .h3new.custSnap43{
+    background: #222;
+}
+.darkColorClass #fiza_UL_SITM,.darkColorClass .pra5 {
+	background-color: #222 !important;
+}
+.darkColorClass .pra4 > a:before {
+	background:none !important;
+}
+.darkColorClass #ID_IL_SITM_10,.darkColorClass #ID_IL_SITM_20,
+.darkColorClass #ID_IL_SITM_30,.darkColorClass #ID_IL_SITM_40,
+.darkColorClass #ID_IL_SITM_50,.darkColorClass #ID_IL_SITM_60,
+.darkColorClass #ID_IL_SITM_70,.darkColorClass #ID_IL_SITM_80,
+.darkColorClass #ID_IL_SITM_90{
+	 color: #fff !important;
+}
+.darkColorClass .lastlogtext_blue{
+	color: #fff;
+}
+.darkColorClass .burgerStyle{
+background-color: #222;
+}
+.darkColorClass .ui-state-default :hover ,.darkColorClass .ui-state-default:hover,.darkColorClass .ui-widget-header .ui-state-default :hover{
+	background-color:#333;
+}
+.darkColorClass table.multiTableHeading > tbody:hover,.darkColorClass table.singleTableHeading > tbody:hover{
+  background-color: #EEEEEE!important;
+}
+.darkColorClass .btn{
+	background:#fff;
+} 
+.darkColorClass.postLogin .footer-wrapper .footer-links a,.darkColorClass.postLogin .footer-wrapper,.darkColorClass #Verification{
+	color: #fff !important;
+	
+}
+.darkColorClass .searchsimpletext_paddingleft{
+	color:#fff;
+}
+.darkColorClass div[id$='collapse'].width100percent {
+  background-color: #222;
+}
+.darkColorClass .leftMenu,.darkColorClass .rightMenu,.darkColorClass .CollapsibleButtonImg{
+  background: #222 !important;
+} 
+.darkColorClass #help{
+	color: #fff;
+	}
+.darkColorClass .unreadCountDash,.darkColorClass .unreadMailsCountDash{
+	  background-color: #fff;
+}
+.darkColorClass .mydiv pre,.darkColorClass .mydiv ul,.darkColorClass .mydiv p {
+	color: #fff !important;
+	}
+	
+.darkColorClass .footerLinkPageDetails{
+	background: #222;
+}
+	
