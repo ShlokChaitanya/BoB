@@ -19,7 +19,7 @@ document.getElementById('selectDropDown').addEventListener('click', function () 
 });
 
 dropDownMenu.addEventListener('click', (event) => {
-    if (event.target.tagName === 'LI') { 
+    if (event.target.tagName === 'LI') {
         inputField.value = event.target.textContent;
         dropDownMenu.style.display = 'none';
     }
@@ -44,7 +44,7 @@ document.getElementById("nextPageBtn").addEventListener('click', function () {
     const params = new URLSearchParams(window.location.search);
     const currentPage = parseInt(params.get('page')) || 1;
     if (currentPage === Math.ceil(allData.length / 30) - 1) return;
-    params.set('page',  currentPage + 1);
+    params.set('page', currentPage + 1);
     window.location.search = params.toString();
 })
 
@@ -68,14 +68,14 @@ function calculateLoadedRows(page, rowsPerPage = 30) {
         return 0;
     }
 
-    return (parseInt(page)-1) * rowsPerPage;
+    return (parseInt(page) - 1) * rowsPerPage;
 }
 
 const rowsPerLoad = 30;
 let loadedRows = calculateLoadedRows(page, rowsPerLoad);
 
 function loadPage(page) {
-    document.getElementById("pageLable").innerHTML = `${page} of ${(Math.ceil(allData.length / rowsPerLoad))-1}`;
+    document.getElementById("pageLable").innerHTML = `${page} of ${(Math.ceil(allData.length / rowsPerLoad)) - 1}`;
 }
 
 async function fetchData() {
@@ -122,13 +122,13 @@ function loadMoreRows() {
         rowElement.innerHTML = `
         <tr class="listwhiterow">
 																							<td
-																								class="HW_textwithpadding footable-visible footable-first-column">
+																								class="HW_textwithpadding footable-visible footable-first-column" style="width: 100px;">
 																								<span
 																									class="searchsimpletext"
 																									id="PageConfigurationMaster_ROAUX3W__1:HREF_TransactionHistoryFG.TXN_DATE_ARRAY[0]">${day}/${month}/${year}</span>
 																							</td>
 																							<td
-																								class="HW_textwithpadding footable-visible">
+																								class="HW_textwithpadding footable-visible" style="width: 400px;">
 																								<a href="https://feba.bobibanking.com/corp/Finacle?bwayparam=%2FFmVh1J1dweI%2FU3sXXF0nNGJBrcn4Tjln8fwIlObNHgHzWMVvUx%2FW%2Ba6XpP4G7ObmzY%2BEXrLP5LOBM0%2B6sD7R0QEykmYWJoBi5FMxFTgOlQ79WTDTJWENfwcStakGRLD%0D%0Au9azGKa06h4k4H%2FOcP1ZBGMyFQh1Bz11wVjXufQOgA%2BdrrQdpRTmZ9u302CU7G%2BYODRVQo%2B708NsXqtEuVaFWgHNO8SbW6AzsxPY%2F4ni8%2FU%3D#"
 																									title="UPI/435240357705/17:10:49/UPI/kamblesagar308@okax"
 																									id="HREF_PageConfigurationMaster_ROAUX3W__1:txnRemarksArray[0]"
@@ -136,7 +136,7 @@ function loadMoreRows() {
 																									class="bluelink">${row["NARRATION"]}</a>
 																							</td>
 																							<td
-																								class="null footable-visible">
+																								class="null footable-visible" style="width: 50px;">
 																								<span
 																									class="labelcolumnsmall"
 																									id="PageConfigurationMaster_ROAUX3W__1:HREF_TransactionHistoryFG.INSTRUMNETID_ARRAY[0]">&nbsp;</span>
@@ -147,7 +147,7 @@ function loadMoreRows() {
 																									id="PageConfigurationMaster_ROAUX3W__1:HREF_amountType[0]">${row["DEPOSIT(CR)"] == null ? "-" : "+"}</span><span
 																									class="${row["DEPOSIT(CR)"] == null ? "hwredtxt" : "hwgreentxt"} amountRightAlign amtRightAlign"
 																									data-rightalign="true"
-																									id="PageConfigurationMaster_ROAUX3W__1:HREF_amountArray[0]">${row["DEPOSIT(CR)"] == null ? row["WITHDRAWAL(DR)"] : row["DEPOSIT(CR)"] }</span>
+																									id="PageConfigurationMaster_ROAUX3W__1:HREF_amountArray[0]">${row["DEPOSIT(CR)"] == null ? row["WITHDRAWAL(DR)"] : row["DEPOSIT(CR)"]}</span>
 																							</td>
 																							<td
 																								class="listgreyrowtxtleftline amountRightAlign footable-visible footable-last-column amtRightAlign">
